@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">练手APP</string>
+    <string name="pre_user">用 户：</string>
+    <string name="pre_pwd">密 码：</string>
+</resources>

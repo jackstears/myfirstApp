@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroung"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#307f7f7f"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/english_icon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/st_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="科目名称" />
+            <TextView
+                android:id="@+id/st_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="科目内容" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_brain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智力"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_quality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="品质"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_ability"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="能力"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#307f7f7f"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/math_icon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/st_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="科目名称" />
+            <TextView
+                android:id="@+id/st_content2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="科目内容" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bmw"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_brain2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智力"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_quality2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="品质"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_ability2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="能力"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/china"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#307f7f7f"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/china_icon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/st_name3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="科目名称" />
+            <TextView
+                android:id="@+id/st_content3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="科目内容" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/girl"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_brain3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智力"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_quality3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="品质"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_ability3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="能力"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/politics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#307f7f7f"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/politics_icon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/st_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="科目名称" />
+            <TextView
+                android:id="@+id/st_content4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="科目内容" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/girl"
+            android:layout_marginLeft="40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_brain4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智力"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_quality4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="品质"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_ability4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="能力"
+                android:textSize="13sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
